@@ -68,6 +68,7 @@ path: frontend-wijmo/src/components
         },
         methods: {
             {{nameCamelCase}}() {
+                this.change()
                 this.$emit('{{nameCamelCase}}', this.value);
             },
             close() {
